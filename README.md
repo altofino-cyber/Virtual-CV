@@ -1,3 +1,4 @@
+![Profile Views](https://komarev.com/ghpvc/?username=altofino-cyber&color=blue)
 <h1 align="center">
   <a href="https://github.com/altofino-cyber">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub+profile!+%F0%9F%91%8B;I'm+Altofino+Zunguze;BSc+IT+Student+%40+NWU;Aspiring+Penetration+Tester+%F0%9F%94%90" alt="Typing SVG" />
