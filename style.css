@@ -26,9 +26,9 @@ header{
 .logo{
     color: white;
     font-size: 1.3rem;
-    font-weight: nowrap;
+    white-space: nowrap;
     text-wrap: nowrap;
-    transition: 0.3s ease ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 .logo:hover{
     transform: scale(1.1);
@@ -41,6 +41,9 @@ li a{
     position: relative;
     color: white;
     font-weight: 300;
+}
+.nav-link.active::before{
+    width: 100%;
 }
 li a::before{
     position: absolute;
@@ -92,12 +95,13 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10rem;
+    gap: 5rem;
 }
 /* ===== image=====*/
 .home__img {
-    width: 400px; 
-    height: 400px; 
+     width: 400px; 
+    height: 400px;
+    max-width: 90vw;
     overflow: hidden;
     background-color: #4682B4; 
     border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
@@ -505,7 +509,6 @@ color: black;
 }
 
 /* ===== Footer ===== */
-
 footer {
     width: 100%;
     background-color: #001f3f; /* dark blue */
@@ -553,3 +556,113 @@ footer .copyright {
     margin-top: 1.5rem;
 }
 
+@media(max-width:1280px){
+    header{
+        padding: 1rem 2rem;
+        gap: 2rem;
+    }
+
+    .about .about-container{
+        gap: 3rem;
+    }
+}
+
+header{
+    width: 90%;
+    justify-content: space-between;
+}
+@media(max-width:768px){
+
+    .home{
+        padding: 6rem 5%;
+    }
+
+
+    .home-container{
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+
+    .home__img{
+        width: 250px;
+        height: 250px;
+        order: 1;
+    }
+
+
+    .info-box{
+        order: 2;
+    }
+
+
+    .info-box h1{
+        font-size: 2.5rem;
+    }
+
+
+    .info-box h3{
+        font-size: 1.3rem;
+    }
+
+
+    .info-box span{
+        font-size: 1.5rem;
+    }
+
+
+    .btn-group{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .socials i{
+        font-size: 2rem;
+    }
+
+}
+
+#menu-icon{
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+@media(max-width:600px){
+
+    header #menu-icon{
+        display: block;
+    }
+
+
+    .nav-links{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        padding: 1rem;
+
+        color: white;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        background: rgba(0,0,0,0.9);
+        border-radius: 3rem;
+    }
+
+
+    .nav-links li{
+        margin-top: 1.5rem;
+        padding: 1rem;
+    }
+
+
+    .nav-links.active{
+        display: flex;
+    }
+
+}
