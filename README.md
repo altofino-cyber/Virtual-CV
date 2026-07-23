@@ -63,8 +63,18 @@
 ---
 
 ## 📊 GitHub Statistics
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=altofino-cyber&show_icons=true&theme=tokyonight&count_private=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=altofino-cyber&show_icons=true&theme=radical&count_private=true" alt="Altofino's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=altofino-cyber&layout=compact&theme=radical" alt="Top Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=altofino-cyber&theme=radical" alt="GitHub Streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=altofino-cyber&theme=radical" alt="Activity" />
 </p>
 
 ---
@@ -72,7 +82,7 @@
 ## 🚀 Projects
 Some projects I have worked on:
 - 🏥 **GBV Rehabilitation Management System**
-  - Developed using Visual Studio 2019, C#, and SQL Server
+  - Developed using Visual Studio 2019, C# and SQL Server
   - Focused on managing rehabilitation services and records
 - 🎓 **Student Management System**
   - Web-based application developed using HTML, CSS, and JavaScript
