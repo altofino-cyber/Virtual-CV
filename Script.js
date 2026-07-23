@@ -1,6 +1,13 @@
+// =========================================
+// SELECT ALL SECTIONS AND NAVIGATION LINKS
+// =========================================
+
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".nav-link");
 
+// =========================================
+// HIGHLIGHT ACTIVE NAVIGATION LINK
+// =========================================
 
 window.addEventListener("scroll", () => {
 
@@ -30,6 +37,10 @@ window.addEventListener("scroll", () => {
 
 });
 
+// =========================================
+// MOBILE NAVIGATION MENU
+// =========================================
+
 document.addEventListener("DOMContentLoaded", () => {
 
     const menu = document.querySelector("#menu-icon");
@@ -40,6 +51,12 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
 });
+
+
+// =========================================
+// CLEAR CONTACT FORM AFTER SUBMISSION
+// =========================================
+
 document.addEventListener("DOMContentLoaded", () => {
 
     const form = document.querySelector(".contact-form");
